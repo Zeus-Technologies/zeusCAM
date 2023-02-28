@@ -1,3 +1,3 @@
 idf_component_register(SRCS "wifi.c"
     INCLUDE_DIRS .
-    REQUIRES memory)
+    REQUIRES memory esp_wifi)
